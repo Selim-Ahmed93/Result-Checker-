@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exam Result Checker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: green;
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      margin: 20px auto;
+      text-align: center;
+      display: block;
+      width: 50%;
+      padding: 12px;
+      background-color: green;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: darkgreen;
+    }
+
+    @media (max-width: 500px) {
+      form {
+        padding: 15px;
+      }
+      button {
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Check Your Exam Result</h2>
+
+  <form>
+    <label for="n1">English:</label>
+    <input type="text" id="n1">
+    
+    <label for="n2">Bangla:</label>
+    <input type="text" id="n2">
+    
+    <label for="n3">Geography:</label>
+    <input type="text" id="n3">
+    
+    <label for="n4">Math:</label>
+    <input type="text" id="n4">
+    
+    <label for="n5">Islam:</label>
+    <input type="text" id="n5">
+  </form>
+
+  <br>
+
+  <div id="data1" style="margin-top: 15px; font-size: 18px;"></div>
+<div id="data2" style="font-size: 18px;"></div>
+<div id="data3" style="font-size: 18px; font-weight: bold;"></div>
+
+
+  <button type="button" onclick="check()">Result Status</button>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
