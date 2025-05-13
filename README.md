@@ -16,7 +16,7 @@ A simple and interactive web application to check student results based on marks
 
 ## 🚀 Live Demo
 
-🔗 [Click to View Live](https://selim-ahmed93.github.io/Result-Checker-/)
+🔗 [Click to View Live https://selim-ahmed93.github.io/Result-Checker-/
 
 ---
 
